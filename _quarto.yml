@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Dokumentacja SOC"
+  author: "Grupa 12"
+  date: "3.11.2026"
+  chapters:
+    - index.qmd
+    - publiczny.qmd
+    - soc.qmd
+    - atak.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+  pdf:
+    documentclass: scrreprt
+
+
+

@@ -1,0 +1,13 @@
+---
+number-sections: false
+---
+# Koncepcja SOC
+## Warstwa organizacji
+
+
+
+
+## Warstwa ludzka
+
+
+## Warstwa technologiczna

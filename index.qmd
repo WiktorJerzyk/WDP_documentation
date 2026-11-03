@@ -1,0 +1,38 @@
+# Wprowadzenie {.unnumbered}
+
+## Słowem wstępu
+Niniejsza książka, przygotowana w formacie HTML, stanowi dokumentację naszego projektu. Jej celem jest uporządkowanie i przedstawienie najważniejszych informacji dotyczących jego założeń, struktury oraz funkcjonalności.
+
+## Szybki dostęp (spis treści)
+* [Ramowy opis organizacji](publiczny.qmd) <br>
+  Jest to **komponent publiczny** naszego projektu. Zawarte w nim są m.in. profil działalności naszej organizacji oraz podstawowe informacje o niej.
+* [Koncepcja SOC](soc.qmd)<br>
+  Jest pierwsza część **komponentu prywatnego** naszego projektu. Dział ten opisuje i dokumentuje koncepcje SOC tworzoną w ramach naszej organizacji. W koncepcji SOC wyróżniamy: warstwę organizacji, warstwę ludzką oraz warstwę technologii.
+* [Koncepcja ataków](atak.qmd)<br>
+  Dział ten zawiera drugą część **komponentu prywatnego**, czyli opracowane ataki na organizacje innych zespolów projektowych.
+
+## Cel i zakres dokumentu
+Dokumentacja została opracowana w celu zebrania i uporządkowania
+wszystkich najważniejszych informacji związanych z realizowanym
+projektem
+
+## Struktura dokumentacji
+<pre style="font-size: 18px;">
+DOKUMENTACJA PROJEKTU 
+│
+├── 1. Koncepcja organizacji
+│      └──
+│
+├── 2. Koncepcja SOC
+│      ├── 2.1. Warstwa organizacyjna
+│      ├── 2.2. Warstwa ludzka
+│      ├── 2.3. Warstwa technologiczna
+│      └── 
+│
+└── 3. Koncepcja ataków
+       └──
+       └──
+</pre>
+
+
+
