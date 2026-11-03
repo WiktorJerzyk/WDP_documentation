@@ -1,0 +1,102 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dokumentacja SOC",
+    "section": "",
+    "text": "Wprowadzenie",
+    "crumbs": [
+      "Wprowadzenie"
+    ]
+  },
+  {
+    "objectID": "index.html#słowem-wstępu",
+    "href": "index.html#słowem-wstępu",
+    "title": "Dokumentacja SOC",
+    "section": "Słowem wstępu",
+    "text": "Słowem wstępu\nNiniejsza książka, przygotowana w formacie HTML, stanowi dokumentację naszego projektu. Jej celem jest uporządkowanie i przedstawienie najważniejszych informacji dotyczących jego założeń, struktury oraz funkcjonalności.",
+    "crumbs": [
+      "Wprowadzenie"
+    ]
+  },
+  {
+    "objectID": "index.html#szybki-dostęp-spis-treści",
+    "href": "index.html#szybki-dostęp-spis-treści",
+    "title": "Dokumentacja SOC",
+    "section": "Szybki dostęp (spis treści)",
+    "text": "Szybki dostęp (spis treści)\n\nRamowy opis organizacji  Jest to komponent publiczny naszego projektu. Zawarte w nim są m.in. profil działalności naszej organizacji oraz podstawowe informacje o niej.\nKoncepcja SOC Jest pierwsza część komponentu prywatnego naszego projektu. Dział ten opisuje i dokumentuje koncepcje SOC tworzoną w ramach naszej organizacji. W koncepcji SOC wyróżniamy: warstwę organizacji, warstwę ludzką oraz warstwę technologii.\nKoncepcja ataków Dział ten zawiera drugą część komponentu prywatnego, czyli opracowane ataki na organizacje innych zespolów projektowych.",
+    "crumbs": [
+      "Wprowadzenie"
+    ]
+  },
+  {
+    "objectID": "index.html#cel-i-zakres-dokumentu",
+    "href": "index.html#cel-i-zakres-dokumentu",
+    "title": "Dokumentacja SOC",
+    "section": "Cel i zakres dokumentu",
+    "text": "Cel i zakres dokumentu\nDokumentacja została opracowana w celu zebrania i uporządkowania wszystkich najważniejszych informacji związanych z realizowanym projektem",
+    "crumbs": [
+      "Wprowadzenie"
+    ]
+  },
+  {
+    "objectID": "index.html#struktura-dokumentacji",
+    "href": "index.html#struktura-dokumentacji",
+    "title": "Dokumentacja SOC",
+    "section": "Struktura dokumentacji",
+    "text": "Struktura dokumentacji\nDOKUMENTACJA PROJEKTU \n│\n├── 1. Koncepcja organizacji\n│      └──\n│\n├── 2. Koncepcja SOC\n│      ├── 2.1. Warstwa organizacyjna\n│      ├── 2.2. Warstwa ludzka\n│      ├── 2.3. Warstwa technologiczna\n│      └── \n│\n└── 3. Koncepcja ataków\n       └──\n       └──",
+    "crumbs": [
+      "Wprowadzenie"
+    ]
+  },
+  {
+    "objectID": "publiczny.html",
+    "href": "publiczny.html",
+    "title": "1  Koncepcja organizacji",
+    "section": "",
+    "text": "1.1 Profil organizacji",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Koncepcja organizacji</span>"
+    ]
+  },
+  {
+    "objectID": "publiczny.html#profil-organizacji",
+    "href": "publiczny.html#profil-organizacji",
+    "title": "1  Koncepcja organizacji",
+    "section": "",
+    "text": "Organizacja działa w branży elektronicznej i informatycznej, zajmuje się serwisem urządzeń dla podmiotów prywatnych i firm.\nOrganizacja zajmuje się naprawą różnego rodzaju sprzętu elektronicznego i informatycznego, jego czyszczeniem, poprawą wydajności (benchmark testy) oraz usuwaniem wirusów i innego złośliwego oprogramowania.\nOrganizacja posiada 1 punkt obsługi klienta w większości największych Polskich miast: [Szczecin, Gdynia, Gdańsk, Olsztyn, Białystok, Warszawa, Radom, Toruń, Bydgoszcz, Poznań, Wrocław, Łódź, Częstochowa, Katowice, Kraków, Kielce, Rzeszów, Lublin], Siedziba główna jest w Poznaniu i znajdują się tam: [Zarząd, Dział HR, Dział Bezpieczeństwa, Dział Marketingu, Dział Prawny, Dział IT, Dział konserwacyjny]\nZatrudniane jest około 1000 pracowników. Na placówke przypada średnio: 3 techników (w tym 1 kierownik)\nPublicznie dostępne systemy oraz zasoby:\n\nWitryna Internetowa z narzędziami dla klientów i pracowników, cykliczne raporty dla inwestorów,\nPortal dla obsługi partnerów\nForum\n\nMedia społecznościowe\n\nYoutube,\nLinkedIn,\nTwitter,\nWłasne forum",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Koncepcja organizacji</span>"
+    ]
+  },
+  {
+    "objectID": "soc.html",
+    "href": "soc.html",
+    "title": "Koncepcja SOC",
+    "section": "",
+    "text": "Warstwa organizacji",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Koncepcja SOC</span>"
+    ]
+  },
+  {
+    "objectID": "soc.html#warstwa-ludzka",
+    "href": "soc.html#warstwa-ludzka",
+    "title": "Koncepcja SOC",
+    "section": "Warstwa ludzka",
+    "text": "Warstwa ludzka",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Koncepcja SOC</span>"
+    ]
+  },
+  {
+    "objectID": "soc.html#warstwa-technologiczna",
+    "href": "soc.html#warstwa-technologiczna",
+    "title": "Koncepcja SOC",
+    "section": "Warstwa technologiczna",
+    "text": "Warstwa technologiczna",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Koncepcja SOC</span>"
+    ]
+  }
+]
