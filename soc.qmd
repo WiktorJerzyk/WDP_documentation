@@ -4,7 +4,9 @@ number-sections: false
 # Koncepcja SOC
 
 ## Ramowa analiza ryzyka
-### Infrastruktura posiadana przez organizację
+### Infrastruktura oraz systemy posiadane przez organizację
+
+
 
 
 ## Warstwa organizacji
