@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Dokumentacja SOC"
@@ -11,7 +12,7 @@ book:
     - soc.qmd
     - atak.qmd
 
-bibliography: references.bib
+#bibliography: references.bib
 
 format:
   html:

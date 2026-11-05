@@ -3,11 +3,35 @@
 1. Organizacja działa w branży elektronicznej i informatycznej, zajmuje się serwisem urządzeń dla podmiotów prywatnych i firm.
 2. Organizacja zajmuje się naprawą różnego rodzaju sprzętu elektronicznego i informatycznego, jego czyszczeniem, poprawą wydajności (benchmark testy) oraz usuwaniem wirusów i innego złośliwego oprogramowania.
 3. Organizacja posiada 1 punkt obsługi klienta w większości największych Polskich miast:
-[Szczecin, Gdynia, Gdańsk, Olsztyn, Białystok, Warszawa, Radom, Toruń, Bydgoszcz, Poznań, Wrocław, Łódź, Częstochowa, Katowice, Kraków, Kielce, Rzeszów, Lublin],
+* Szczecin, 
+* Gdynia, 
+* Gdańsk, 
+* Olsztyn, 
+* Białystok, 
+* Warszawa, 
+* Radom, 
+* Toruń,
+* Bydgoszcz,
+* Poznań, 
+* Wrocław, 
+* Łódź, 
+* Częstochowa, 
+* Katowice, 
+* Kraków,
+* Kielce,
+* Rzeszów, 
+* Lublin. <br>
 Siedziba główna jest w Poznaniu i znajdują się tam:
-[Zarząd, Dział HR, Dział Bezpieczeństwa, Dział Marketingu, Dział Prawny, Dział IT, Dział konserwacyjny]
+   * Zarząd,
+   * Dział HR,
+   * Dział Bezpieczeństwa,
+   * Dział Marketingu, 
+   * Dział Prawny, 
+   * Dział IT, 
+   * Dział konserwacyjny]
 4. Zatrudniane jest około 1000 pracowników. Na placówke przypada średnio:
-3 techników (w tym 1 kierownik)
+* 3 techników,
+* 1 kierownik
 5. Publicznie dostępne systemy oraz zasoby:
    * Witryna Internetowa z narzędziami dla klientów i pracowników, cykliczne raporty dla inwestorów, 
    * Portal dla obsługi partnerów
