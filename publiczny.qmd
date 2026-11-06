@@ -1,4 +1,13 @@
 # Koncepcja organizacji
+## Ogólny opis organizacji
+Organizacja działa w branży elektronicznej i informatycznej, specjalizując się w świadczeniu
+kompleksowych usług serwisowych i technicznych dla klientów indywidualnych oraz
+przedsiębiorstw. Głównym obszarem jej działalności jest diagnostyka, konserwacja i naprawa
+różnego rodzaju urządzeń elektronicznych oraz sprzętu komputerowego. W ramach
+świadczonych usług organizacja zajmuje się również czyszczeniem urządzeń, optymalizacją ich
+wydajności, przeprowadzaniem testów benchmarkowych, a także wykrywaniem i usuwaniem
+wirusów oraz innego rodzaju złośliwego oprogramowania. 
+
 ## Profil organizacji
 1. Organizacja działa w branży elektronicznej i informatycznej, zajmuje się serwisem urządzeń dla podmiotów prywatnych i firm.
 2. Organizacja zajmuje się naprawą różnego rodzaju sprzętu elektronicznego i informatycznego, jego czyszczeniem, poprawą wydajności (benchmark testy) oraz usuwaniem wirusów i innego złośliwego oprogramowania.
@@ -28,7 +37,7 @@ Siedziba główna jest w Poznaniu i znajdują się tam:
    * Dział Marketingu, 
    * Dział Prawny, 
    * Dział IT, 
-   * Dział konserwacyjny]
+   * Dział konserwacyjny
 4. Zatrudniane jest około 1000 pracowników. Na placówke przypada średnio:
 * 3 techników,
 * 1 kierownik

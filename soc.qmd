@@ -2,277 +2,142 @@
 number-sections: false
 format:
   html:
-    embed-resources: true
+    css: [tools/hierarchia.css, tools/riskRegister.css]
 ---
 # Koncepcja SOC
 
+Ten dział opisuje koncepcje SOC naszej organizacji.
+Główne elementy tej części dokumentacji to:
+
+* ramowa analiza ryzyka,
+* warstwa organizacji SOC,
+* warstwa ludzka SOC,
+* oraz warstwa technologiczna SOC.
+
 ## Ramowa analiza ryzyka
-### Infrastruktura oraz systemy posiadane przez organizację
+Ramowa analiza ryzyka organizacji wynika z infrastruktury oraz systemów posiadanych przez organizację. Określenie tych komponentów pozwala na zidentyfikowanie potencjalnych zagrożeń i słabych punktów organizacji oraz na określenie przykładowych sposobów radzenia sobie z danymi zagrożeniami.
+
+### Infrastruktura oraz systemy posiadane przez organizację {#sec-infrastruktura}
+#### Schemat hierarchii organizacji
+
+```{=html}
+<table class="custom-grid-table">
+  <!-- Wiersz 1 -->
+  <tr>
+    <th colspan="6" class="layer-coral">ZARZĄD - główna centrala Poznań</th>
+  </tr>
+  
+  <!-- Wiersz 2 -->
+  <tr>
+    <td colspan="4" class="layer-banana">Działy</td>
+    <td colspan="2" class="layer-mint">Oddziały poszczególnych miast (x18)</td>
+  </tr>
+  
+  <!-- Wiersz 3 -->
+  <tr>
+    <td class="layer-plum">Dział HR</td>
+    <td class="layer-plum">Dział marketingu</td>
+    <td class="layer-apricot" style="border-radius: 20px 20px 0 0; border-bottom: none; padding-bottom: 6px;">Dział IT</td>
+    <td class="layer-apricot" style="border-radius: 20px 20px 0 0; border-bottom: none; padding-bottom: 6px;">Dział Bezpieczeństwa</td>
+    <td colspan="2" class="layer-mint-lighter">Kierownictwo</td>
+  </tr>
+  
+  <!-- Wiersz 4 -->
+  <tr>
+    <td class="layer-plum">Dział konserwacji</td>
+    <td class="layer-plum">Dział prawny</td>
+    <td colspan="2" class="layer-apricot" style="border-radius: 0 0 20px 20px; border-top: none; padding-top: 6px;">Centrum Operacji Bezpieczeństwa (SOC)</td>
+    <td colspan="2" class="layer-mint-lighter">Pododdział księgowości</td>
+    
+  </tr>
+  
+  <!-- Wiersz 5 -->
+  <tr>
+    <td colspan="2" class="layer-plum">Dział księgowości</td>
+    <td colspan="2"></td> <!-- Puste miejsce pod spodem dla zachowania kolumn -->
+    <td colspan="2" class="layer-mint-lighter">Pracownicy</td>
+  </tr>
+</table>
+```
+Powyższy schemat przedstawia hierarchię organizacji. Pod zarząd podlegają wszystkie działy.  **Centrum Operacji Bezpieczeństwa (SOC)** jest tworzony poprzez skuteczną współpracę **działu bezpieczeństwa** oraz **działu IT**. Oddziały poszczególnych miast również podlegają zarządowi. Kierownictwo księgowi oraz pracownicy oddziałów odpowiednio należą i odpowiadają przed konkretnymi działami istnejącymi w organizacji (Działy: HR, marketingu, konserwacji, prawny oraz księgowości).
+
+#### Systemy posiadane przez organizację oraz zasoby udostępniane oddziałom
+
+```{=html}
+<div class="quarto-figure quarto-figure-center">
+  <figure class="figure">
+    <!-- Obrazek widoczny w trybie jasnym -->
+    <img src="images/serweryZasoby.svg" class="img-fluid figure-img light-content" alt="Zasoby organizacji" style="width: 100%;">
+    
+    <!-- Obrazek widoczny w trybie ciemnym -->
+    <img src="images/serwerZasoby_dark.svg" class="img-fluid figure-img dark-content" alt="Zasoby organizacji" style="width: 100%;">
+    
+    <figcaption class="figure-caption">Rysunek: Zasoby organizacji</figcaption>
+  </figure>
+</div>
+```
+
+Główna centrala posiada dedykowane serwery oraz chmurę dla pracowników. Istnieją też specjalne punkty kopii zapasowych, zlokalizowane w innych miejscach - wykonujące cykliczne backup'y centra danych.
+
+* Chmura organizacji pozwala pracownikom na wymienianie się dokumetami biurowymi oraz przechowywanie ich. 
+* Wewnętrzy serwer poczty pozwala na bezpieczną wymiane informacji w firmie
+* Serwery Web służą do obsługi forum oraz dedykowanych narzędzi do obsługi partnerów 
+  * W strefie zdemilitaryzowanej istnieje dodatkowy serwer Web, ktory udostępnia cykliczne informacje dla inwestorów
+  * Jest też witryna internetowa dostępna publicznie, która posiada podstawowe informacje o organizacji oraz umożliwia na rejestracje wizity serwisowych.
+* Bazy danych przechowują informacje o naprawianych wcześniej komputerach.
+  * Serwisanci korzystają z bazy danych, aby patrzeć na potencjalne rozwiązania problemów, które już wcześniej mogły wystąpić.
+  * Serwisanci dodają również w bazie danych nowe wpisy dotyczące serwisowania sprzętu
+* W centrum danych jest zlokalizowany system ERP/CRM
+
+Niektóre działy organizacji działają hybrydowo, lecz większość w znacznej mierze korzystaa z zasobów chmurowych.<br><br>
+Przez duże rozproszenie firmy działy takie jak: dział HR, dział prawny i dział marketingu w znacznej mierze wymagają wsparcia systemów IT dla poprawnego działania.<br><br>
+Pracownicy serwisujący sprzęt komputerowy nie potrzebują wsparcia IT dla poprawnego działania. System IT natomiast znacznie przyspiesza ich pracę i pomaga im w skutecznym serwisowaniu sprzętu.<br><br>
+
+Wsród kluczowych zasobów organizacji, wyróżnić można bazy danych, które przechowują dane naszych klientów indywidualnych i biznesowych.<br><br>
+
+Awaria lub przerwa w działaniu systemów organizacji, może spowodować paraliż pracy większości działów oraz znaczne wydłużenie pracy naszych pracowników <br><br>
+
+Głównym źródłem zagrożeń są komputery zainfekowane, które mogą zainfekować naszą sieć i przedostać się na nasze serwery. <br><br>
+
+Słabym punktem mogą być niewykwalifikowani ludzie z różnych działów, którzy przez błąd systemu lub awarie mogą mieć przywileje większe niż powinni. Taka podatność, wykorzystana w odpowiedni sposób może doprowadzić do wycieku danych <br>
 
 
-### Rejestr ryzyka
 
+### Znaczenie posiadanych systemów i zasobów dla organizacji
+
+### Analiza zagrożeń
+
+#### wybrane źródła zagrożeń
+
+#### Wybrane techniki ataku
+
+#### Wybrane, potencjalne, słabe punkty
+
+#### Poziomy akceptowalnego ryzyka
+
+#### Rejestr ryzyka
 
 ```{=html}
 <div class="risk-dashboard">
   <div class="risk-list">
-    <h3>Rejestr ryzyka</h3>
+    <h3>Rejestr ryzyk <br><span style="font-size: 0.75rem">(Proszę kliknąć w element na liście)<span></h3>
     <div id="risk-list"></div>
   </div>
 
   <div class="risk-panel">
-    <h3>Matryca ryzyka</h3>
+    <h3>Tabela ryzyka</h3>
     <div id="selected-info">Wybierz ryzyko z listy.</div>
     <div id="risk-matrix"></div>
     <div class="risk-legend">
-      <span class="low">Low</span>
-      <span class="medium">Medium</span>
-      <span class="high">High</span>
-      <span class="critical">Critical</span>
+      <span class="low">Niskie ryzyko</span>
+      <span class="medium">Średnie ryzyko</span>
+      <span class="high">Wysokie ryzyko</span>
+      <span class="critical">Krytyczne ryzyko</span>
     </div>
   </div>
 </div>
 
-<style>
-.risk-dashboard {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 30px;
-  align-items: start;
-  margin: 25px 0;
-}
-
-.risk-list, .risk-panel {
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-}
-
-.risk-item {
-  display: block;
-  width: 100%;
-  text-align: left;
-  padding: 12px;
-  margin: 7px 0;
-  border: 1px solid #ddd;
-  border-radius: 7px;
-  background: white;
-  cursor: pointer;
-  color: #222;
-}
-
-.risk-item:hover {
-  background: #f0f0f0;
-}
-
-.risk-item.active {
-  border: 2px solid #2563eb;
-  background: #eff6ff;
-  font-weight: bold;
-}
-
-#selected-info {
-  padding: 12px;
-  margin-bottom: 15px;
-  background: #f5f5f5;
-  border-radius: 7px;
-  color:#222;
-}
-
-#risk-matrix {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 5px;
-}
-
-.matrix-cell {
-  min-width: 0;
-  aspect-ratio: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.axis {
-  background: transparent;
-  font-size: 12px;
-}
-
-.low { background: #86c98a; }
-.medium { background: #f5df72; }
-.high { background: #f5a65b; }
-.critical { background: #e66b6b; }
-
-.matrix-cell.selected {
-  outline: 4px solid #174ea6;
-  outline-offset: -4px;
-  transform: scale(1.04);
-  z-index: 1;
-}
-/* Przygaszenie pozostałych komórek */
-#risk-matrix.has-selection .matrix-cell:not(.selected) {
-  opacity: 0.3;
-  filter: blur(1px);
-  transition: all 0.3s ease;
-}
-
-/* Wybrana komórka */
-#risk-matrix .matrix-cell.selected {
-  opacity: 1;
-  filter: none;
-  outline: 4px solid #174ea6;
-  outline-offset: -4px;
-  transform: scale(1.08);
-  z-index: 2;
-  box-shadow: 0 0 12px rgba(23, 78, 166, 0.5);
-  transition: all 0.3s ease;
-}
-
-.risk-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 15px;
-}
-
-.risk-legend span {
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 12px;
-  color: #222;
-}
-
-@media (max-width: 700px) {
-  .risk-dashboard {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
-<script>
-(() => {
-  const risks = [
-    {id: "R1", name: "Project delay", probability: 4, impact: 5},
-    {id: "R2", name: "Budget overrun", probability: 3, impact: 4},
-    {id: "R3", name: "Staff shortage", probability: 2, impact: 3},
-    {id: "R4", name: "Technical failure", probability: 5, impact: 5},
-    {id: "R5", name: "Supplier issues", probability: 1, impact: 5},
-    {id: "R5", name: "Supplier issues", probability: 5, impact: 1},
-    {id: "R5", name: "Supplier issues", probability: 2, impact: 4}
-  ];
-
-  let selectedRisk = null;
-
-  function getRiskLevel(score) {
-    if (score <= 3) return "Low";
-    if (score <= 6) return "Medium";
-    if (score <= 12) return "High";
-    return "Critical";
-  }
-
-  function renderList() {
-    const list = document.getElementById("risk-list");
-    list.innerHTML = "";
-
-    risks.forEach(risk => {
-      const button = document.createElement("button");
-      button.className = "risk-item";
-      button.textContent = risk.id + " – " + risk.name;
-
-      button.addEventListener("click", () => {
-        selectedRisk = risk;
-        render();
-      });
-
-      list.appendChild(button);
-    });
-  }
-
-  function renderMatrix() {
-    const matrix = document.getElementById("risk-matrix");
-    matrix.innerHTML = "";
-    matrix.classList.toggle("has-selection", selectedRisk !== null);
-
-    // Kliknięcie macierzy przywraca normalny wygląd
-matrix.addEventListener("click", () => {
-  matrix.classList.remove("has-selection");
-});
-
-    const corner = document.createElement("div");
-    corner.className = "matrix-cell axis";
-    corner.textContent = "P / I";
-    matrix.appendChild(corner);
-
-    for (let impact = 1; impact <= 5; impact++) {
-      const cell = document.createElement("div");
-      cell.className = "matrix-cell axis";
-      cell.textContent = impact;
-      matrix.appendChild(cell);
-    }
-
-    for (let probability = 5; probability >= 1; probability--) {
-      const label = document.createElement("div");
-      label.className = "matrix-cell axis";
-      label.textContent = probability;
-      matrix.appendChild(label);
-
-      for (let impact = 1; impact <= 5; impact++) {
-        const score = probability * impact;
-        const level = getRiskLevel(score);
-
-        const cell = document.createElement("div");
-        cell.className = "matrix-cell " + level.toLowerCase();
-        cell.textContent = score;
-
-        if (
-          selectedRisk &&
-          selectedRisk.probability === probability &&
-          selectedRisk.impact === impact
-        ) {
-          cell.classList.add("selected");
-        }
-
-        matrix.appendChild(cell);
-      }
-    }
-  }
-
-  function renderInfo() {
-    const info = document.getElementById("selected-info");
-
-    if (!selectedRisk) {
-      info.textContent = "Wybierz ryzyko z listy.";
-      return;
-    }
-
-    const score = selectedRisk.probability * selectedRisk.impact;
-    const level = getRiskLevel(score);
-
-    info.textContent =
-      selectedRisk.id + " | " +
-      selectedRisk.name +
-      " | Probability: " + selectedRisk.probability +
-      " | Impact: " + selectedRisk.impact +
-      " | Score: " + score +
-      " | Risk range: " + level;
-  }
-
-  function render() {
-    document.querySelectorAll(".risk-item").forEach((button, index) => {
-      button.classList.toggle("active", risks[index] === selectedRisk);
-    });
-
-    renderMatrix();
-    renderInfo();
-  }
-
-  renderList();
-  renderMatrix();
-})();
-</script>
+<script src="tools/riskRegister.js"></script>
 ```
 
 

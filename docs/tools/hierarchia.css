@@ -1,0 +1,26 @@
+/* Stylizacja tabeli i matowych kolorów warstw z wymuszeniem !important */
+.custom-grid-table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 10px !important;
+  margin: 1.5rem 0 !important;
+  font-family: inherit !important;
+  font-size: 0.95rem !important;
+  text-align: center !important;
+}
+
+.custom-grid-table th, 
+.custom-grid-table td {
+  padding: 12px 16px !important;
+  vertical-align: middle !important;
+  border-radius: 20px !important;
+}
+
+/* Matowe kolory z wymuszeniem pierwszeństwa */
+.layer-mint         { background-color: #86c98a !important; color: #1e293b !important; }
+.layer-mint-lighter { background-color: #bee8c0 !important; color: #1e293b !important; }
+.layer-banana       { background-color: #f5df72 !important; color: #1e293b !important; }
+.layer-apricot      { background-color: #f5a65b !important; color: #1e293b !important; }
+.layer-sand         { background-color: #f6bd60 !important; color: #1e293b !important; }
+.layer-coral        { background-color: #e66b6b !important; color: #1e293b !important; }
+.layer-plum         { background-color: #b591cc !important; color: #1e293b !important; }
