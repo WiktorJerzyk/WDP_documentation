@@ -9,12 +9,12 @@ format:
 Ten dział opisuje koncepcje SOC naszej organizacji.
 Główne elementy tej części dokumentacji to:
 
-* ramowa analiza ryzyka,
-* warstwa organizacji SOC,
-* warstwa ludzka SOC,
-* oraz warstwa technologiczna SOC.
+* [Ramowa analiza ryzyka](#rar)
+* [Warstwa organizacji SOC](#wos)
+* [Warstwa ludzka SOC](#wl)
+* [Warstwa technologiczna SOC](#wt)
 
-## Ramowa analiza ryzyka
+## Ramowa analiza ryzyka {#rar}
 Ramowa analiza ryzyka organizacji wynika z infrastruktury oraz systemów posiadanych przez organizację. Określenie tych komponentów pozwala na zidentyfikowanie potencjalnych zagrożeń i słabych punktów organizacji oraz na określenie przykładowych sposobów radzenia sobie z danymi zagrożeniami.
 
 ### Infrastruktura oraz systemy posiadane przez organizację {#sec-infrastruktura}
@@ -106,14 +106,22 @@ Słabym punktem mogą być niewykwalifikowani ludzie z różnych działów, któ
 ### Znaczenie posiadanych systemów i zasobów dla organizacji
 
 ### Analiza zagrożeń
+Na podstawie powyższych systemów i zasobów posiadanych przez organizację oraz
+na podstawie hierarchii organizacji określić można zagrożenia, ich źródła, potencjalne
+techniki ataku na organizację, słabe punkty oraz poziomy ryzyka akceptowalnego.
 
 #### wybrane źródła zagrożeń
+* Komputery serwisowane przez oddziały organizacji posiadać mogą złośliwe
+oprogramowanie takie jak (napisz co to może powodować):
 
+* Duża decentralizacja kierownictwa firmy powodować może:
 #### Wybrane techniki ataku
 
 #### Wybrane, potencjalne, słabe punkty
-
+* Słabe punkty wynikać mogą z dużej decentralizacji siły roboczej firmy, wyróżnić
+można słabe punkty takie jak:
 #### Poziomy akceptowalnego ryzyka
+* Akceptowalnym ryzykiem jest zainfekowanie jednego oddziału - narzucić można na niego kwarantannę
 
 #### Rejestr ryzyka
 
@@ -144,12 +152,12 @@ Słabym punktem mogą być niewykwalifikowani ludzie z różnych działów, któ
 
 
 
-## Warstwa organizacji
+## Warstwa organizacji {#wos}
 
 
 
 
-## Warstwa ludzka
+## Warstwa ludzka{#wl}
 
 
-## Warstwa technologiczna
+## Warstwa technologiczna{wt}
