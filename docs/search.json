@@ -80,18 +80,18 @@
     ]
   },
   {
-    "objectID": "soc.html#ramowa-analiza-ryzyka",
-    "href": "soc.html#ramowa-analiza-ryzyka",
+    "objectID": "soc.html#rar",
+    "href": "soc.html#rar",
     "title": "Koncepcja SOC",
     "section": "",
-    "text": "Infrastruktura oraz systemy posiadane przez organizację\n\nSchemat hierarchii organizacji\n\n\n\nZARZĄD - główna centrala Poznań\n\n\nDziały\nOddziały poszczególnych miast (x18)\n\n\nDział HR\nDział marketingu\nDział IT\nDział Bezpieczeństwa\nKierownictwo\n\n\nDział konserwacji\nDział prawny\nCentrum Operacji Bezpieczeństwa (SOC)\nPododdział księgowości\n\n\nDział księgowości\n\nPracownicy\n\n\n\nPowyższy schemat przedstawia hierarchię organizacji. Pod zarząd podlegają wszystkie działy. Centrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę działu bezpieczeństwa oraz działu IT. Oddziały poszczególnych miast również podlegają zarządowi. Kierownictwo księgowi oraz pracownicy oddziałów odpowiednio należą i odpowiadają przed konkretnymi działami istnejącymi w organizacji (Działy: HR, marketingu, konserwacji, prawny oraz księgowości).\n\n\nSystemy posiadane przez organizację oraz zasoby udostępniane oddziałom\n\n  \n    \n    \n    \n    \n    \n    \n    Rysunek: Zasoby organizacji\n  \n\nGłówna centrala posiada dedykowane serwery oraz chmurę dla pracowników. Istnieją też specjalne punkty kopii zapasowych, zlokalizowane w innych miejscach - wykonujące cykliczne backup’y centra danych.\n\nChmura organizacji pozwala pracownikom na wymienianie się dokumetami biurowymi oraz przechowywanie ich.\nWewnętrzy serwer poczty pozwala na bezpieczną wymiane informacji w firmie\nSerwery Web służą do obsługi forum oraz dedykowanych narzędzi do obsługi partnerów\n\nW strefie zdemilitaryzowanej istnieje dodatkowy serwer Web, ktory udostępnia cykliczne informacje dla inwestorów\nJest też witryna internetowa dostępna publicznie, która posiada podstawowe informacje o organizacji oraz umożliwia na rejestracje wizity serwisowych.\n\nBazy danych przechowują informacje o naprawianych wcześniej komputerach.\n\nSerwisanci korzystają z bazy danych, aby patrzeć na potencjalne rozwiązania problemów, które już wcześniej mogły wystąpić.\nSerwisanci dodają również w bazie danych nowe wpisy dotyczące serwisowania sprzętu\n\nW centrum danych jest zlokalizowany system ERP/CRM\n\nNiektóre działy organizacji działają hybrydowo, lecz większość w znacznej mierze korzystaa z zasobów chmurowych. Przez duże rozproszenie firmy działy takie jak: dział HR, dział prawny i dział marketingu w znacznej mierze wymagają wsparcia systemów IT dla poprawnego działania. Pracownicy serwisujący sprzęt komputerowy nie potrzebują wsparcia IT dla poprawnego działania. System IT natomiast znacznie przyspiesza ich pracę i pomaga im w skutecznym serwisowaniu sprzętu.\nWsród kluczowych zasobów organizacji, wyróżnić można bazy danych, które przechowują dane naszych klientów indywidualnych i biznesowych.\nAwaria lub przerwa w działaniu systemów organizacji, może spowodować paraliż pracy większości działów oraz znaczne wydłużenie pracy naszych pracowników \nGłównym źródłem zagrożeń są komputery zainfekowane, które mogą zainfekować naszą sieć i przedostać się na nasze serwery. \nSłabym punktem mogą być niewykwalifikowani ludzie z różnych działów, którzy przez błąd systemu lub awarie mogą mieć przywileje większe niż powinni. Taka podatność, wykorzystana w odpowiedni sposób może doprowadzić do wycieku danych \n\n\n\nZnaczenie posiadanych systemów i zasobów dla organizacji\n\n\nAnaliza zagrożeń\n\nwybrane źródła zagrożeń\n\n\nWybrane techniki ataku\n\n\nWybrane, potencjalne, słabe punkty\n\n\nPoziomy akceptowalnego ryzyka\n\n\nRejestr ryzyka\n\n  \n    Rejestr ryzyk (Proszę kliknąć w element na liście)\n    \n  \n\n  \n    Tabela ryzyka\n    Wybierz ryzyko z listy.\n    \n    \n      Niskie ryzyko\n      Średnie ryzyko\n      Wysokie ryzyko\n      Krytyczne ryzyko",
+    "text": "Infrastruktura oraz systemy posiadane przez organizację\n\nSchemat hierarchii organizacji\n\n\n\nZARZĄD - główna centrala Poznań\n\n\nDziały\nOddziały poszczególnych miast (x18)\n\n\nDział HR\nDział marketingu\nDział IT\nDział Bezpieczeństwa\nKierownictwo\n\n\nDział konserwacji\nDział prawny\nCentrum Operacji Bezpieczeństwa (SOC)\nPododdział księgowości\n\n\nDział księgowości\n\nPracownicy\n\n\n\nPowyższy schemat przedstawia hierarchię organizacji. Pod zarząd podlegają wszystkie działy. Centrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę działu bezpieczeństwa oraz działu IT. Oddziały poszczególnych miast również podlegają zarządowi. Kierownictwo księgowi oraz pracownicy oddziałów odpowiednio należą i odpowiadają przed konkretnymi działami istnejącymi w organizacji (Działy: HR, marketingu, konserwacji, prawny oraz księgowości).\n\n\nSystemy posiadane przez organizację oraz zasoby udostępniane oddziałom\n\n  \n    \n    \n    \n    \n    \n    \n    Rysunek: Zasoby organizacji\n  \n\nGłówna centrala posiada dedykowane serwery oraz chmurę dla pracowników. Istnieją też specjalne punkty kopii zapasowych, zlokalizowane w innych miejscach - wykonujące cykliczne backup’y centra danych.\n\nChmura organizacji pozwala pracownikom na wymienianie się dokumetami biurowymi oraz przechowywanie ich.\nWewnętrzy serwer poczty pozwala na bezpieczną wymiane informacji w firmie\nSerwery Web służą do obsługi forum oraz dedykowanych narzędzi do obsługi partnerów\n\nW strefie zdemilitaryzowanej istnieje dodatkowy serwer Web, ktory udostępnia cykliczne informacje dla inwestorów\nJest też witryna internetowa dostępna publicznie, która posiada podstawowe informacje o organizacji oraz umożliwia na rejestracje wizity serwisowych.\n\nBazy danych przechowują informacje o naprawianych wcześniej komputerach.\n\nSerwisanci korzystają z bazy danych, aby patrzeć na potencjalne rozwiązania problemów, które już wcześniej mogły wystąpić.\nSerwisanci dodają również w bazie danych nowe wpisy dotyczące serwisowania sprzętu\n\nW centrum danych jest zlokalizowany system ERP/CRM\n\nNiektóre działy organizacji działają hybrydowo, lecz większość w znacznej mierze korzystaa z zasobów chmurowych. Przez duże rozproszenie firmy działy takie jak: dział HR, dział prawny i dział marketingu w znacznej mierze wymagają wsparcia systemów IT dla poprawnego działania. Pracownicy serwisujący sprzęt komputerowy nie potrzebują wsparcia IT dla poprawnego działania. System IT natomiast znacznie przyspiesza ich pracę i pomaga im w skutecznym serwisowaniu sprzętu.\nWsród kluczowych zasobów organizacji, wyróżnić można bazy danych, które przechowują dane naszych klientów indywidualnych i biznesowych.\nAwaria lub przerwa w działaniu systemów organizacji, może spowodować paraliż pracy większości działów oraz znaczne wydłużenie pracy naszych pracowników \nGłównym źródłem zagrożeń są komputery zainfekowane, które mogą zainfekować naszą sieć i przedostać się na nasze serwery. \nSłabym punktem mogą być niewykwalifikowani ludzie z różnych działów, którzy przez błąd systemu lub awarie mogą mieć przywileje większe niż powinni. Taka podatność, wykorzystana w odpowiedni sposób może doprowadzić do wycieku danych \n\n\n\nZnaczenie posiadanych systemów i zasobów dla organizacji\n\n\nAnaliza zagrożeń\nNa podstawie powyższych systemów i zasobów posiadanych przez organizację oraz na podstawie hierarchii organizacji określić można zagrożenia, ich źródła, potencjalne techniki ataku na organizację, słabe punkty oraz poziomy ryzyka akceptowalnego.\n\nwybrane źródła zagrożeń\n\nKomputery serwisowane przez oddziały organizacji posiadać mogą złośliwe oprogramowanie takie jak (napisz co to może powodować):\nDuża decentralizacja kierownictwa firmy powodować może: #### Wybrane techniki ataku\n\n\n\nWybrane, potencjalne, słabe punkty\n\nSłabe punkty wynikać mogą z dużej decentralizacji siły roboczej firmy, wyróżnić można słabe punkty takie jak: #### Poziomy akceptowalnego ryzyka\nAkceptowalnym ryzykiem jest zainfekowanie jednego oddziału - narzucić można na niego kwarantannę\n\n\n\nRejestr ryzyka\n\n  \n    Rejestr ryzyk (Proszę kliknąć w element na liście)\n    \n  \n\n  \n    Tabela ryzyka\n    Wybierz ryzyko z listy.\n    \n    \n      Niskie ryzyko\n      Średnie ryzyko\n      Wysokie ryzyko\n      Krytyczne ryzyko",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Koncepcja SOC</span>"
     ]
   },
   {
-    "objectID": "soc.html#warstwa-organizacji",
-    "href": "soc.html#warstwa-organizacji",
+    "objectID": "soc.html#wos",
+    "href": "soc.html#wos",
     "title": "Koncepcja SOC",
     "section": "Warstwa organizacji",
     "text": "Warstwa organizacji",
@@ -100,21 +100,21 @@
     ]
   },
   {
-    "objectID": "soc.html#warstwa-ludzka",
-    "href": "soc.html#warstwa-ludzka",
+    "objectID": "soc.html#wl",
+    "href": "soc.html#wl",
     "title": "Koncepcja SOC",
     "section": "Warstwa ludzka",
-    "text": "Warstwa ludzka",
+    "text": "Warstwa ludzka\n\nTest:\n\nCentrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę\ndziału bezpieczeństwa oraz działu IT. Model bazuje na pracy wewnętrznego SOC\nwspieranym poprzez Virtual SOC (In-house SOC + vSOC), z powodu organizacji\nfirmy, jej rozproszenia i skupienia głównej centrali w Poznaniu.\n\n\n\n\n\n\n\nTip\n\n\n\nCentrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę działu bezpieczeństwa oraz działu IT. Model bazuje na pracy wewnętrznego SOC wspieranym poprzez Virtual SOC (In-house SOC + vSOC), z powodu organizacji firmy, jej rozproszenia i skupienia głównej centrali w Poznaniu.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Koncepcja SOC</span>"
     ]
   },
   {
-    "objectID": "soc.html#warstwa-technologiczna",
-    "href": "soc.html#warstwa-technologiczna",
+    "objectID": "soc.html#warstwa-technologicznawt",
+    "href": "soc.html#warstwa-technologicznawt",
     "title": "Koncepcja SOC",
-    "section": "Warstwa technologiczna",
-    "text": "Warstwa technologiczna",
+    "section": "Warstwa technologiczna{wt}",
+    "text": "Warstwa technologiczna{wt}",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Koncepcja SOC</span>"
     ]

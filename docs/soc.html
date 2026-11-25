@@ -84,6 +84,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="tools/hierarchia.css">
 <link rel="stylesheet" href="tools/riskRegister.css">
+<link rel="stylesheet" href="tools/coloring.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
@@ -327,15 +328,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ramowa-analiza-ryzyka" id="toc-ramowa-analiza-ryzyka" class="nav-link active" data-scroll-target="#ramowa-analiza-ryzyka">Ramowa analiza ryzyka</a>
+  <li><a href="#rar" id="toc-rar" class="nav-link active" data-scroll-target="#rar">Ramowa analiza ryzyka</a>
   <ul class="collapse">
   <li><a href="#sec-infrastruktura" id="toc-sec-infrastruktura" class="nav-link" data-scroll-target="#sec-infrastruktura">Infrastruktura oraz systemy posiadane przez organizację</a></li>
   <li><a href="#znaczenie-posiadanych-systemów-i-zasobów-dla-organizacji" id="toc-znaczenie-posiadanych-systemów-i-zasobów-dla-organizacji" class="nav-link" data-scroll-target="#znaczenie-posiadanych-systemów-i-zasobów-dla-organizacji">Znaczenie posiadanych systemów i zasobów dla organizacji</a></li>
   <li><a href="#analiza-zagrożeń" id="toc-analiza-zagrożeń" class="nav-link" data-scroll-target="#analiza-zagrożeń">Analiza zagrożeń</a></li>
   </ul></li>
-  <li><a href="#warstwa-organizacji" id="toc-warstwa-organizacji" class="nav-link" data-scroll-target="#warstwa-organizacji">Warstwa organizacji</a></li>
-  <li><a href="#warstwa-ludzka" id="toc-warstwa-ludzka" class="nav-link" data-scroll-target="#warstwa-ludzka">Warstwa ludzka</a></li>
-  <li><a href="#warstwa-technologiczna" id="toc-warstwa-technologiczna" class="nav-link" data-scroll-target="#warstwa-technologiczna">Warstwa technologiczna</a></li>
+  <li><a href="#wos" id="toc-wos" class="nav-link" data-scroll-target="#wos">Warstwa organizacji</a></li>
+  <li><a href="#wl" id="toc-wl" class="nav-link" data-scroll-target="#wl">Warstwa ludzka</a>
+  <ul class="collapse">
+  <li><a href="#test" id="toc-test" class="nav-link" data-scroll-target="#test">Test:</a></li>
+  </ul></li>
+  <li><a href="#warstwa-technologicznawt" id="toc-warstwa-technologicznawt" class="nav-link" data-scroll-target="#warstwa-technologicznawt">Warstwa technologiczna{wt}</a></li>
   </ul>
 </nav>
     </div>
@@ -364,13 +368,13 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Ten dział opisuje koncepcje SOC naszej organizacji. Główne elementy tej części dokumentacji to:</p>
 <ul>
-<li>ramowa analiza ryzyka,</li>
-<li>warstwa organizacji SOC,</li>
-<li>warstwa ludzka SOC,</li>
-<li>oraz warstwa technologiczna SOC.</li>
+<li><a href="#rar">Ramowa analiza ryzyka</a></li>
+<li><a href="#wos">Warstwa organizacji SOC</a></li>
+<li><a href="#wl">Warstwa ludzka SOC</a></li>
+<li><a href="#wt">Warstwa technologiczna SOC</a></li>
 </ul>
-<section id="ramowa-analiza-ryzyka" class="level2">
-<h2 class="anchored" data-anchor-id="ramowa-analiza-ryzyka">Ramowa analiza ryzyka</h2>
+<section id="rar" class="level2">
+<h2 class="anchored" data-anchor-id="rar">Ramowa analiza ryzyka</h2>
 <p>Ramowa analiza ryzyka organizacji wynika z infrastruktury oraz systemów posiadanych przez organizację. Określenie tych komponentów pozwala na zidentyfikowanie potencjalnych zagrożeń i słabych punktów organizacji oraz na określenie przykładowych sposobów radzenia sobie z danymi zagrożeniami.</p>
 <section id="sec-infrastruktura" class="level3">
 <h3 class="anchored" data-anchor-id="sec-infrastruktura">Infrastruktura oraz systemy posiadane przez organizację</h3>
@@ -448,17 +452,20 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="analiza-zagrożeń" class="level3">
 <h3 class="anchored" data-anchor-id="analiza-zagrożeń">Analiza zagrożeń</h3>
+<p>Na podstawie powyższych systemów i zasobów posiadanych przez organizację oraz na podstawie hierarchii organizacji określić można zagrożenia, ich źródła, potencjalne techniki ataku na organizację, słabe punkty oraz poziomy ryzyka akceptowalnego.</p>
 <section id="wybrane-źródła-zagrożeń" class="level4">
 <h4 class="anchored" data-anchor-id="wybrane-źródła-zagrożeń">wybrane źródła zagrożeń</h4>
-</section>
-<section id="wybrane-techniki-ataku" class="level4">
-<h4 class="anchored" data-anchor-id="wybrane-techniki-ataku">Wybrane techniki ataku</h4>
+<ul>
+<li><p>Komputery serwisowane przez oddziały organizacji posiadać mogą złośliwe oprogramowanie takie jak (napisz co to może powodować):</p></li>
+<li><p>Duża decentralizacja kierownictwa firmy powodować może: #### Wybrane techniki ataku</p></li>
+</ul>
 </section>
 <section id="wybrane-potencjalne-słabe-punkty" class="level4">
 <h4 class="anchored" data-anchor-id="wybrane-potencjalne-słabe-punkty">Wybrane, potencjalne, słabe punkty</h4>
-</section>
-<section id="poziomy-akceptowalnego-ryzyka" class="level4">
-<h4 class="anchored" data-anchor-id="poziomy-akceptowalnego-ryzyka">Poziomy akceptowalnego ryzyka</h4>
+<ul>
+<li>Słabe punkty wynikać mogą z dużej decentralizacji siły roboczej firmy, wyróżnić można słabe punkty takie jak: #### Poziomy akceptowalnego ryzyka</li>
+<li>Akceptowalnym ryzykiem jest zainfekowanie jednego oddziału - narzucić można na niego kwarantannę</li>
+</ul>
 </section>
 <section id="rejestr-ryzyka" class="level4">
 <h4 class="anchored">Rejestr ryzyka</h4>
@@ -485,14 +492,36 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 </section>
-<section id="warstwa-organizacji" class="level2">
-<h2 class="anchored" data-anchor-id="warstwa-organizacji">Warstwa organizacji</h2>
+<section id="wos" class="level2">
+<h2 class="anchored" data-anchor-id="wos">Warstwa organizacji</h2>
 </section>
-<section id="warstwa-ludzka" class="level2">
-<h2 class="anchored" data-anchor-id="warstwa-ludzka">Warstwa ludzka</h2>
+<section id="wl" class="level2">
+<h2 class="anchored" data-anchor-id="wl">Warstwa ludzka</h2>
+<section id="test" class="level3">
+<h3 class="anchored" data-anchor-id="test">Test:</h3>
+<section class="tipBox-green">
+Centrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę
+działu bezpieczeństwa oraz działu IT. Model bazuje na pracy wewnętrznego SOC
+wspieranym poprzez Virtual SOC (In-house SOC + vSOC), z powodu organizacji
+firmy, jej rozproszenia i skupienia głównej centrali w Poznaniu.
 </section>
-<section id="warstwa-technologiczna" class="level2">
-<h2 class="anchored" data-anchor-id="warstwa-technologiczna">Warstwa technologiczna</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Centrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę działu bezpieczeństwa oraz działu IT. Model bazuje na pracy wewnętrznego SOC wspieranym poprzez Virtual SOC (In-house SOC + vSOC), z powodu organizacji firmy, jej rozproszenia i skupienia głównej centrali w Poznaniu.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="warstwa-technologicznawt" class="level2">
+<h2 class="anchored" data-anchor-id="warstwa-technologicznawt">Warstwa technologiczna{wt}</h2>
 
 
 </section>

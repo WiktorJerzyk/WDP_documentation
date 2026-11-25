@@ -2,7 +2,7 @@
 number-sections: false
 format:
   html:
-    css: [tools/hierarchia.css, tools/riskRegister.css]
+    css: [tools/hierarchia.css, tools/riskRegister.css, tools/coloring.css]
 ---
 # Koncepcja SOC
 
@@ -159,5 +159,21 @@ można słabe punkty takie jak:
 
 ## Warstwa ludzka{#wl}
 
+### Test:
+```{=html}
+<section class="tipBox-green">
+Centrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę
+działu bezpieczeństwa oraz działu IT. Model bazuje na pracy wewnętrznego SOC
+wspieranym poprzez Virtual SOC (In-house SOC + vSOC), z powodu organizacji
+firmy, jej rozproszenia i skupienia głównej centrali w Poznaniu.
+</section>
+```
 
+:::{.callout-tip}
+
+Centrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę
+działu bezpieczeństwa oraz działu IT. Model bazuje na pracy wewnętrznego SOC
+wspieranym poprzez Virtual SOC (In-house SOC + vSOC), z powodu organizacji
+firmy, jej rozproszenia i skupienia głównej centrali w Poznaniu.
+:::
 ## Warstwa technologiczna{wt}
