@@ -169,7 +169,7 @@ firmy, jej rozproszenia i skupienia głównej centrali w Poznaniu.
 </section>
 ```
 
-:::{.callout-tip}
+:::{.callout}
 
 Centrum Operacji Bezpieczeństwa (SOC) jest tworzony poprzez skuteczną współpracę
 działu bezpieczeństwa oraz działu IT. Model bazuje na pracy wewnętrznego SOC
